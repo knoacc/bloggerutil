@@ -1,0 +1,32 @@
+# host files untuk unblock situs manga online
+# biasnya karena di block oleh isp, provider atau dns
+# misal: telkom :p
+
+127.0.0.1 localhost #IPv4 
+localhost ::1 localhost #IPv6
+
+# direct to ip start here
+
+185.4.227.116 mangafox.me
+176.53.21.90 mangafox.me
+185.4.227.116 www.mangafox.me
+176.53.21.90 www.mangafox.me
+104.28.19.11 mangastream.com
+104.28.18.11 mangastream.com
+104.28.19.11 www.mangastream.com
+104.28.18.11 www.mangastream.com
+185.86.164.130 mangapanda.com
+185.86.164.130 www.mangapanda.com
+185.86.164.130 mangapanda.net
+185.85.189.58 mangareader.net
+185.85.189.58 www.mangareader.net
+185.4.227.118 m.mangafox.me
+176.53.21.91 m.mangafox.me
+104.25.14.105 mymanga.me
+104.25.13.105 mymanga.me
+104.25.14.105 www.mymanga.me
+104.25.13.105 www.mymanga.me
+104.28.28.7 kissmanga.io
+104.28.29.7 kissmanga.io
+104.28.28.7 www.kissmanga.io
+104.28.29.7 www.kissmanga.io
