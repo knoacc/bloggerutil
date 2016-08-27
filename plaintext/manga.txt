@@ -1,6 +1,13 @@
 # host files untuk unblock situs manga online
 # biasnya karena di block oleh isp, provider atau dns
 # misal: telkom :p
+# untuk menggunakan file ini dengan adaway
+# - download
+# - buka adaway
+# - pilih menu > your list
+# - pilih redirection
+# - pilih menu > import all lists
+# - pilih file manga.txt
 
 127.0.0.1 localhost #IPv4 
 localhost ::1 localhost #IPv6
@@ -30,3 +37,4 @@ localhost ::1 localhost #IPv6
 104.28.29.7 kissmanga.io
 104.28.28.7 www.kissmanga.io
 104.28.29.7 www.kissmanga.io
+
