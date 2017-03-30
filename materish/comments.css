@@ -34,3 +34,5 @@ p.comment-content{line-height:1.4em;}
 .comments .comments-content .comment-thread ol ol .continue{display:none}
 .comments .comments-content .loadmore.loaded{display:none}
 .comment-footer{margin:0}
+/*lazy comment*/
+.hide-content{display:none;margin:0;padding:0;} a.showcontent,#comments a.hiddencontent{display:block;text-decoration:none;position:relative;color:#fff;font-weight:700;font-size:15px;padding:12.5px 0;background:#2F0B3A;border:2px solid;border-radius:5px;text-align:center;margin:30px auto;letter-spacing:1px;transition:all .3s} #comments a.hiddencontent {background:#fff;color:#acb3b8;transition:all .3s} a.showcontent:hover{background:#fff;color:#2F0B3A;} #comments a.hiddencontent:hover{background:#acb3b8;color:#fff;}
