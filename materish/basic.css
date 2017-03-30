@@ -185,41 +185,7 @@ a.home-link{display:inline-block}
 .related-post-style-2 .related-post-item-thumbnail{background:#fff;float:left;height:50px;margin:5px 15px 5px 0;width:50px}
 .related-post-style-2 .related-post-item-title{color:#212121;font-family:&#39;Product Sans&#39;,sans-serif;font-size:1em;margin-right:5px}
 .related-post-style-2 .related-post-item-summary{color:#757575;font-size:.9em}
-.comment-form{margin:0 -8px;overflow:hidden}
-.comments h3{color:#757575;font-family:&#39;Product Sans&#39;,sans-serif;font-size:1.2em;line-height:1.2em;padding:20px 0}
-h4#comment-post-message{display:none;margin:0}
-.comments{margin:0 0 20px;overflow:hidden;padding:0}
-.comments .comments-content .comment{margin-bottom:0}
-.comments .comment-header{margin-bottom:15px}
-.comments .comments-content,.comments .comments-content .comment-content{color:#424242;margin-top:2px;text-align:left}
-.thread-toggle{display:none}
-.comments .comments-content .comment-thread ol{margin:0;overflow:hidden;text-align:left}
-.comments .comments-content .comment-thread ol ol{margin-top:10px}
-.comments .avatar-image-container{background:url(https://4.bp.blogspot.com/-ToGIz-rThfA/WABP7_9ZOyI/AAAAAAAAWUc/-AVy9esZUJcS5RKSVNusQascKwbMKTrIwCLcB/s1600/chat.gif)top right no-repeat;float:left;max-height:38px;width:50px}
-.comments .avatar-image-container img{background:#eee;border-radius:50%;height:35px;width:35px}
-.comments .comment-block{background:#eee;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-right-radius:10px;margin:0 0 15px 49px;padding:15px;position:relative}
-p.comment-content{line-height:1.4em;}
-.comments .comment-block a{color:#212121}
-.comments .comments-content .user {color:#757575;font-family:&#39;Product Sans&#39;,sans-serif;font-size:.9em;font-style:normal;font-weight:400;margin-right:5px}
-.comments .comments-content .user a{color:#757575}
-.comments .comments-content .datetime a{color:#757575;font-size:.7em;font-weight:700}
-.comments .comments-content .comment:first-child{padding-top:0}
-.comments .comments-content .comment-thread:empty{display:none}
-.comments .comment-replies{margin-left:50px}
-.comments .inline-thread .comment-replybox-thread .comment-form{margin:0 0 15px -55px}
-.comments .thread-toggle .thread-arrow{vertical-align:top}
-.comments .comments-content .comment{padding:0}
-.comments .comment-thread.inline-thread .comment,.comments .comment-thread.inline-thread .comment:last-child{margin:0}
-.comments .comments-content .comment-thread{margin:0;padding:0}
-.comments .comments-content .inline-thread{margin:0;padding:0}
-.comments .comments-content .icon.blog-author{background-image:url(data:image/gif;base64,R0lGODlhFAAUANU3ANra2khISLS0tN7e3v39/UpKSktLS4SEhLGxseDg4LOzs7W1tbKystzc3NLS0vr6+jExMba2tq+vr/z8/NnZ2b+/v0dHR62trfX19bq6ury8vJWVlTw8PMnJyXFxcff391BQUExMTHh4eNfX129vb/b29q6urnt7e6urq8/PzzQ0NEVFRd/f311dXUNDQ/T09ImJiXBwcFpaWuPj4+jo6ElJSTAwMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMTEgNzkuMTU4MzI1LCAyMDE1LzA5LzEwLTAxOjEwOjIwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEIyRDdEREQ5MUMxMTFFNjkwRjZGOTNCQTcyQjVGMzkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEIyRDdEREU5MUMxMTFFNjkwRjZGOTNCQTcyQjVGMzkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowQjJEN0REQjkxQzExMUU2OTBGNkY5M0JBNzJCNUYzOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowQjJEN0REQzkxQzExMUU2OTBGNkY5M0JBNzJCNUYzOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAADcALAAAAAAUABQAAAaFwJtwSCwaj8ikcslsCjuzYQXDHBROhJuCw1gODDbTbWFbOZRWm+AWsQUAykZBPYa8lSyXTXETQGpwQiMkgQgiHzQtF31uFEQaNiEJNzA2MQ9CbRaBRAI2BgM3BzYeDxlunEUMnw2iNjIqd0kINiAlBKOyShIoWRMbZ0wJoUIpL07IycpHQQA7);background-size:18px 18px;height:18px;margin:0;position:absolute;right:10px;top:10px;width:18px}
-.comments .comment .comment-actions a{background:#E0E0E0;border-radius:3px;color:#757575;display:inline-block;font-size:.7em;font-weight:700;margin:5px 10px 0 0;padding:5px 8px;text-transform:uppercase}
-.comments .comment .comment-actions a:hover,.comments .continue a:hover{text-decoration:none}
-.comments .continue{margin:15px 0 15px 0;text-align:center}
-.comments .continue a{background:#E0E0E0;border-radius:3px;color:#757575;display:inline-block;font-size:.7em;font-weight:700;padding:5px 8px;text-transform:uppercase}
-.comments .comments-content .comment-thread ol ol .continue{display:none}
-.comments .comments-content .loadmore.loaded{display:none}
-.comment-footer{margin:0}
+
 #footer-wrapper{background:#2F0B3A;padding:0}
 #footer-wrapper a{color:#FFF}
 #footer-wrapper a:hover{color:#F5F5F5}
