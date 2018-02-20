@@ -20,7 +20,7 @@ j++;}
 if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
 var x=Math.floor((Math.random()*5)+ 1);
-var xxx=null;if(x=="1"){xxx="berwisata-gratis-di-wilayah-malang-raya.html"}
+var xxx=null;if(x=="1"){xxx="2017/03/berwisata-gratis-di-wilayah-malang-raya.html"}
 if(x=="1"){xxx="2017/03/berwisata-gratis-di-wilayah-malang-raya.html"}
 if(x=="2"){xxx="2017/03/10-lokasi-penyelaman-dengan-view.html"}
 if(x=="3"){xxx="2017/03/25-tujuan-wisata-di-jogja-instagamable.html"}
