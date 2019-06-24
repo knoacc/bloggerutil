@@ -26,6 +26,16 @@
 <script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-8526606076277673",enable_page_level_ads: true});</script>
 </head>
 <body>
-
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj.name;
+  }
+};
+xmlhttp.open("GET", "https://api.myip.com", true);
+xmlhttp.send();
+</script>
 </body>
 </html>
