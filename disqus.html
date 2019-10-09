@@ -1,5 +1,3 @@
-
-
 <div id="disqus_thread"></div>
 <script>
   window.addEventListener('message', receiveMessage, false);
@@ -33,32 +31,20 @@
     }
     return (false);
   }
-  
-    var css = '#disqus_thread {font-family:' + getQueryVariable('fontBodyFamily') + '} a {color:#' + getQueryVariable('fontLinkColor') + '}',
-    head = document.head || document.getElementsByTagName('head')[0],
-    style = document.createElement('style');
-style.type = 'text/css';
-if (style.styleSheet){
-  style.styleSheet.cssText = css;
-} else {
-  style.appendChild(document.createTextNode(css));
-}
-head.appendChild(style);
-
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
     var disqus_config = function () {
-        this.page.url = getQueryVariable('canonicalurl');
-        this.page.identifier = '';
+        this.page.url = getQueryVariable('url');
+        this.page.identifier = getQueryVariable('id');
         this.page.title = getQueryVariable('title');
     };
     
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
         
-        s.src = '//knoacc.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://knoacc.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
         
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
