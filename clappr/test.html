@@ -8,17 +8,18 @@
 var player = new Clappr.Player({
  source: "https://cdn10.dailysport.pw/live/4/4.m3u8",
  parentId: "#player",
-  playback: {
+ hlsMinimumDvrSize: 0,
+ width: '100%'
+ height: '100%'
+ playback: {
     hlsjsConfig: {
-     maxMaxBufferLength: 120,
+     liveSyncDurationCount: 2
     },
-    preload: 'none',
-    controls: false,
     playInline: true, // allows inline playback when running on iOS UIWebview
     crossOrigin: 'allow',
     recycleVideo: Clappr.Browser.isMobile, // Recycle <video> element only for mobile. (default is true)
     triggerFatalErrorOnResourceDenied: true, // Triggers playback fatal error if resource is denied. (default is false)
-  },
+ },
  gaAccount: 'UA-149607626-1',
  gaTrackerName: 'MyPlayerInstance',
  watermark: "ef8eso735fsq5hso1elik42022-8dd36454207c986db9d9447e5c95a1d3.png",
