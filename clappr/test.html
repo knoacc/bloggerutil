@@ -9,7 +9,8 @@
   <div id="player"></div>
 <script>
 var player = new Clappr.Player({
- source: "https://cdn10.dailysport.pw/live/4/4.m3u8",
+ source: 'https://cdn10.dailysport.pw/live/4/4.m3u8',
+ plugins: [ChromecastPlugin],
  parentId: "#player",
  hlsMinimumDvrSize: 0,
  width: '100%'
@@ -25,9 +26,9 @@ var player = new Clappr.Player({
  },
  gaAccount: 'UA-149607626-1',
  gaTrackerName: 'MyPlayerInstance',
- watermark: "ef8eso735fsq5hso1elik42022-8dd36454207c986db9d9447e5c95a1d3.png",
- position: 'top-right',
- watermarkLink: "https://www.catetan.pw/liverpool"
+// watermark: "ef8eso735fsq5hso1elik42022-8dd36454207c986db9d9447e5c95a1d3.png",
+// position: 'top-right',
+// watermarkLink: "https://www.catetan.pw/liverpool"
 });
 </script>
 </body>
