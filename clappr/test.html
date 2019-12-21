@@ -6,7 +6,7 @@
   <div id="player"></div>
 <script>
 var player = new Clappr.Player({
- source: "h",
+ source: "https://cdn10.dailysport.pw/live/4/4.m3u8",
  parentId: "#player",
   playback: {
     preload: 'metadata',
@@ -15,10 +15,6 @@ var player = new Clappr.Player({
     crossOrigin: 'use-credentials',
     recycleVideo: Clappr.Browser.isMobile, // Recycle <video> element only for mobile. (default is true)
     triggerFatalErrorOnResourceDenied: true, // Triggers playback fatal error if resource is denied. (default is false)
-    externalTracks: [ // Add external <track> (if supported by browser, see also https://www.w3.org/TR/html5/embedded-content-0.html#the-track-element)
-      {lang: 'en', label: 'English', src: 'http://example.com/en.vtt', kind: 'subtitles'},
-      {lang: 'fr', label: 'French', src: 'http://example.com/fr.vtt'} // 'kind' default value is 'subtitles'
-    ]
   },
  gaAccount: 'UA-149607626-1',
  gaTrackerName: 'MyPlayerInstance',
