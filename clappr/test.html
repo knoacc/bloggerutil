@@ -8,34 +8,10 @@
 <body>
   <div id="player"></div>
 <script>
-const url = {
-  1: 1,
-  2: 2,
-  3: 3,
-  4: 4,
-  5: 5,
-  6: 6,
-  7: 7,
-  8: 8,
-  9: 9
-}
-const random = Math.floor(Math.random() * 9) + 1;
-const config = {
-  loader: {
-    trackerAnnounce: [
-      "wss://wt.dailysport.pw:8433",
-    ],
-    rtcConfig: {
-      iceServers: [
-        { urls: "stun:stun.l.google.com:19302" },
-        { urls: "stun:stun2.l.google.com:19305" },
-      ]
-    }
-  }
-};
+
 
     var player = new Clappr.Player({
-    source: 'https://www99.uptostream.com/1a4bl8o958c/720/0/video.mp4',
+    source: 'http://stream05.cdncv.net/hls/mfqjqo5jupo6sr7qw7iezlyxxvqw4yqapnlfe5lln,25w2mychn3ypqqitica,t4wymychn37lg3w2xkq,.urlset/master.m3u8',
     plugins: [ChromecastPlugin],
     parentId: '#player',
     width: '100%',
